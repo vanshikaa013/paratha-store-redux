@@ -1,10 +1,8 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import Herosec from '../components/Herosec'
 import OurServices from '../components/OurServices'
-import Menu from '../components/menu'
-import Footer from '../components/Footer'
 import Review from '../components/Review'
+import Menus from '../components/Menus'
 
 const Home = () => {
   return (
@@ -12,7 +10,7 @@ const Home = () => {
    
    <Herosec/>
    <OurServices/>
-   <Menu/>
+   <Menus/>
    <Review/>
    {/* <Footer/> */}
    </>
