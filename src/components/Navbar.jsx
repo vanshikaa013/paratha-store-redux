@@ -1,12 +1,13 @@
 import React from "react";
 import { BsCart3 } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.png"
 
 const Navbar = () => {
   return (
     <nav className="sticky top-0 w-full bg-gradient-to-br from-yellow-100 to-orange-100 shadow-lg p-5 flex justify-between items-center">
     <span className="flex items-center gap-2">
-      <img src="" alt="Logo" className="w-[8%]" />
+      <img src={logo} alt="Logo" className="w-[28%] h-14" />
       <Link to={"/"} className="text-2xl font-bold text-orange-600">Paratha-store</Link>
     </span>
     <span className="flex space-x-6 text-gray-700">

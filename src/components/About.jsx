@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.png"
 
 const AboutPage = () => {
   return (
@@ -19,7 +20,7 @@ const AboutPage = () => {
           <div className="lg:w-1/2">
             <img
               className="rounded-lg shadow-lg w-full"
-              src="https://images.unsplash.com/photo-1625201244820-e74914c1d25b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHBhcmF0aGF8ZW58MHx8fHwxNjU3OTQ2MjE3&ixlib=rb-1.2.1&q=80&w=1080"
+              src={logo}
               alt="Delicious Parathas"
             />
           </div>

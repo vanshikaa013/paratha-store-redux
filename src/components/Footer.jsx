@@ -2,6 +2,7 @@ import React from 'react'
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import logo from "../assets/logo.png"
 
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
     {/* Logo and Description */}
     <div className="mb-6 md:mb-0 text-center md:text-left">
       <span className="flex items-center justify-center md:justify-start gap-2">
-        <img className="w-[10%] md:w-[5%]" src="" alt="Logo" />
+        <img className="w-[10%] md:w-[5%]" src={logo} alt="Logo" />
         <h2 className="text-2xl font-bold text-orange-600">Paratha Store</h2>
       </span>
       <p className="text-gray-700 mt-2 w-[100%] md:w-[60%]">
