@@ -6,7 +6,7 @@ import {
   decreaseQuantity,
 } from "../features/Cart/CartSlice";
 import { toast } from "react-toastify";
-
+import cartImage from "../assets/cartImage.png"
 const Cart = () => {
   const { cart } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
@@ -48,7 +48,8 @@ const Cart = () => {
   </span>
 
   {cart.length === 0 ? (
-    <div className="text-center mt-20">
+    <div className="text-center mt-20 flex items-center flex-col">
+      <img src={cartImage} alt=""  className="w-72"/>
       <h2 className="text-xl sm:text-2xl font-bold text-gray-700">
         Your cart is empty!
       </h2>
